@@ -5,7 +5,6 @@ import Text from '../Homepage/Text'
 import {
   AiFillGithub,
   AiFillMail,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
