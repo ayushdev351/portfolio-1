@@ -8,7 +8,7 @@ function Text() {
       options={{
         strings: [
           "React Js Developer",
-          "Front End Developer",
+          "Node Js Developer",
         ],
         autoStart: true,
         loop: true,

@@ -2,12 +2,7 @@ import React from 'react'
 import '../../pages/style.css';
 import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from 'react-bootstrap'
-import useradminpanel from '../../Assets/Admin-Panel-Dashboard.png'
-import olximage from '../../Assets/olx-clone image.png'
-import netfliximage from '../../Assets/React-App-netflix-clone.png'
-import gridlinesbuilders from '../../Assets/Gridlinesbuilders.png'
-import charlespizza from '../../Assets/Charlestown-Pizza.png'
-import todolist from '../../Assets/todolist.png'
+
 
 function Projectlist() {
   return (
@@ -17,62 +12,51 @@ function Projectlist() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={useradminpanel}
+                imgPath={"https://user-images.githubusercontent.com/79743704/156329767-f0cfa333-4389-42d6-96ae-b7ea07e7a491.png"}
                 isBlog={false}
-                title="Dashboard Panel"
-                description="User Admin Dashboard created with React js, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to build this entire application. This application consists of Light and Dark Mode, four different Charts, three different Data Table Pages, FAQ Page, Form Page, and Calendar Integration."
-                ghLink="https://rahul-dashboard-pannel.netlify.app"
+                title="College Connect"
+                description="This is a website where students can ask questions and queries related to college and connect with people who contribute unique insights and quality answer."
+                ghLink="https://github.com/ayushdev351/CollegeConnect"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={olximage}
+                imgPath={"https://user-images.githubusercontent.com/79743704/233374595-ef10cd64-8051-4d08-af1b-435c3f798cb2.png"}
                 isBlog={false}
-                title="Olx-Clone"
-                description="Olx-clone builds with react js. using firebase as a backend and deploying in firebase. Olx-Clone is a potential classified advertisement website that categorizes objects in a user-friendly manner & displays them as advertisements.. Classifieds can be posted that involve selling, and buying using React-router, context, react hooks."
-                ghLink="https://olx-clone-rahul.netlify.app/"
+                title="Task Manager"
+                description="Technology used Node Js, Express Js and Mongo Db, Mongoose. A fully workin task manager where user can add, delete, edit the daily tasks."
+                ghLink="https://github.com/ayushdev351/Node-Mongo-Task-Manager"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={netfliximage}
+                imgPath={"https://user-images.githubusercontent.com/79743704/148377780-acccc94b-c40b-436c-9ce6-1153a0014d4d.PNG"}
                 isBlog={false}
-                title="Netflix-Clone"
-                description="This project is a simplified front-end clone of Netflix. It was created with React js. It uses TMDB (The Movie Data Base ) API and uses the Axios tool. Users can click movie images with embedded YouTube trailers or related videos about the movie."
-                ghLink="https://react-rahul-netflix-clone.netlify.app/"
+                title="GitGram"
+                description="A website to see github users present near your location.It was created with React js. Users can just add their location and it will show all the developersa round them."
+                ghLink="https://github.com/ayushdev351/GitGram"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={gridlinesbuilders}
+                imgPath={"https://user-images.githubusercontent.com/79743704/233379173-3901d01d-aed5-42fc-8473-8300e3b5f10f.png"}
                 isBlog={false}
-                title="Grid Line Builders"
-                description="Grid line builders is a static webpage built with HTML, CSS, and JavaScript. Users can see images of their work and contact information that helps to connect the home builders through a webpage. webpage builds responsive to multiple sizes of devices."
-                ghLink="https://gridlinesbuilders.in/"
+                title="Hospital Connect"
+                description="Developed a web application using Node Js API and React as frontend. Implemented Firebase Authentication for login and signup. Functionalities: Login/Logout, Register. Refer, Add, Remove and See Referred Patients"
+                ghLink="https://github.com/ayushdev351/SyntaxErrors"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={charlespizza}
+                imgPath={"https://user-images.githubusercontent.com/79743704/233378104-f87e86a2-c6f6-4b14-ac83-6a0ca435cdfa.png"}
                 isBlog={false}
-                title="Charlestown Pizza"
-                description="Charlestown pizza is a static website completely build with bootstrap with fully responsive."
-                ghLink="https://rahulvijay81.github.io/Pizzastore-bootstrap/"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={todolist}
-                isBlog={false}
-                title="To Do List"
-                description=" To-Do App that build will allow a user to add a task to a list of to-do items. Once the task is added, the user will be able to delete it as completed once it has done."
-                ghLink="https://todolist-rahul81.netlify.app/"
-
+                title="Dashboard"
+                description="A fully responsive one page dashboard design. Technology used React, CSS3, React Bootstrap etc."
+                ghLink="https://github.com/ayushdev351/Dashboard/"
               />
             </Col>
           </Row>
